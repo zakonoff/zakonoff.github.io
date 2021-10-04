@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        .header {
+            text-align: right;
+            position: absolute;
+            top: 40px;
+            right: 80px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .body {
+            background-color: rgb(197, 238, 248);
+        }
+
+        .image {
+            text-align: left;
+            padding: 20px;
+            padding-top: 20px;
+        }
+
+        .search {
+            text-align: center;
+
+
+        }
+
+        .myform {
+            padding-top: 20px;
+            border: 1px solid rgb(199, 199, 199);
+            border-radius: 10px;
+            width: 400px;
+            height: 25px;
+            padding: 0px 15px 0px 15px;
+        }
+
+        .textimg {
+            color: #4285f4;
+            font: 16px/16px roboto-regular, arial, sans-serif;
+            position: relative;
+            left: 115px;
+
+        }
+
+        .text_adv_src {
+            margin: 0px 0px 0px 80px;
+            font-size: 22px;
+            font-family: Arial;
+            color: brown;
+        }
+
+        .mysection {
+            height: 20px;
+            border-bottom: 1px solid brown;
+        }
+
+        .block {
+            text-align: left;
+            padding: 20px;
+            padding-left: 50px;
+            font-family: Arial;
+        }
+
+        a {
+            margin: 10px;
+        }
+
+        input {
+            margin: 10px;
+            width: 140px;
+        }
+    </style>
+    <title>Search</title>
+</head>
+
+<body class="body">
+    <div class="image">
+        <img src="https://www.google.com.ua/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="50"
+            width="150" alt="Google">
+        <div class="header">
+            <a type="submit" href="https://mail.google.com/mail/?tab=rm&amp;authuser=0&amp;ogbl">Почта</a>
+            <a href="search.html">Главная</a>
+        </div>
+    </div>
+    <div class="text_adv_src">
+        Расширенный поиск
+    </div>
+    <div class="mysection"></div>
+    <div style="width: auto; clear: both; margin-bottom: 40px;">
+        <div
+            style="float: left; display: block; padding-left: 40px; width: 40%; font-size: 18px; font-family: Arial; margin: 10px;">
+            Найти страницы, содержащие ... </div>
+        <div
+            style="float: left; display: block; padding-left: 100px; font-size: 18px; font-family: Arial; margin: 10px;">
+            Как это сделать в поле поиска</div>
+    </div>
+    <form action="https://google.com/search">
+        <div>
+            <div class="block"> со словами
+                 <input  class="myform" value="" autofocus="autofocus" id="xX4UFf" name="as_q"
+                        type="text" style="margin-left: 180px;">
+                        Введите важные слова: трехцветный рет-терьер
+            </div>
+        </div>
+        <div>
+            <div class="block">точное слово или фразу:
+                <input class="myform" value="" id="CwYCWc" name="as_epq" type="text" style="margin-left: 80px;">
+                Возьмите точные слова в кавычки: "рет-терьер"
+            </div>
+        </div>
+        <div>
+            <div class="block">любое из этих слов:
+                <input class="myform" value="" id="mSoczb" name="as_oq" type="text" style="margin-left: 115px;">
+                Введите OR между всеми нужными словами: миниатюрные OR стандартные
+            </div>
+        </div>
+        <div>
+            <div class="block">ни одно из этих слов:
+                <input class="myform" value="" id="t2dX1c" name="as_eq" type="text" style="margin-left: 105px;">
+                Поставьте знак минус перед нежелательными словами: -гризун - "Джек Рассел"
+            </div>
+        </div>
+        <div class="mysection"></div>
+        <div class="search">
+            <input class="btn btn-light" type="submit" value="Поиск">
+        </div>
+        <div class="mysection"></div>
+    </form>
+</body>

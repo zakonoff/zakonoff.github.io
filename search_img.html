@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        .header {
+            text-align: right;
+            padding: 70px;
+            padding-top: 40px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .body {
+            background-color: rgb(197, 238, 248);
+        }
+
+        .image {
+            text-align: center;
+            padding: 20px;
+            padding-top: 150px;
+        }
+
+        .search {
+            text-align: center;
+
+
+        }
+
+        .myform {
+            border: 1px solid rgb(199, 199, 199);
+            border-radius: 25px;
+            width: 600px;
+            height: 45px;
+            padding: 0px 15px 0px 15px;
+            font-size: 24px;
+        }
+
+        .textimg {
+            color: #4285f4;
+            font: 16px/16px roboto-regular, arial, sans-serif;
+            position: relative;
+            left: 115px;
+
+        }
+
+        a {
+            margin: 10px;
+        }
+
+        input {
+            margin: 10px;
+            width: 140px;
+        }
+    </style>
+    <title>Search</title>
+</head>
+
+<body class="body">
+
+    <div class="header">
+        <a type="submit" href="https://mail.google.com/mail/?tab=rm&amp;authuser=0&amp;ogbl" target="_top">Почта</a>
+        <a href="search.html">Главная</a>
+    </div>
+    <div class="image">
+        <img src="https://www.google.com.ua/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="92" width="272" alt="Google">
+        <div class="textimg">
+            <span>Картинки</span>
+        </div>
+    </div>
+    <div class="center">
+        <form action="https://google.com/search" method="GET">
+            <div class="search">
+                <input class="myform" type="text" name="q">
+                <input type="hidden" name="tbm" value="isch">
+            </div>
+        </form>
+    </div>
+</body>
